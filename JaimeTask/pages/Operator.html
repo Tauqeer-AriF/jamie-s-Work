@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Sign Up</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../assets/css/aos.css">
+</head>
+   
+<body>
+    <div class="bg-img">
+        <div class="container register">
+            <img src="../images/logo.png " class="left-img" data-aos="fade-right" data-aos-delay="300" />
+            <div class="row actGradiant p-5">
+                
+                <!-- <div class="col-md-3 col-lg-3 col-xl-3 pr-0 pl-0">
+                    <div class="register-left-update">
+                        
+                        <br />
+                        <div class="left-update">
+                        
+                            <h3 class="mt-4 mb-4">Title 1</h3>
+                            <img src="https://image.ibb.co/n7oTvU/logo_white.png" class="left-rocket" alt="">
+                            <h3 class="mt-4 mb-4">Title 2</h3>
+                        </div>
+                    </div>
+                </div> -->
+               
+                <div class="col-md-11 col-lg-11 col-xl-11 pr-0 pl-0 mx-auto px-auto">
+
+                    <div class="register-right" data-aos="fade-up" data-aos-delay="300">
+                                <h3 class="register-heading my-5 text-light">Operator Sign Up</h3>
+                                <div class="row register-form">
+                                    <div class="col-md-6  col-lg-6 col-xl-6">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="First Name *"
+                                                value="" />
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Last Name *"
+                                                value="" />
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Address 1 *"
+                                                value="" />
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Address 2 *"
+                                                value="" />
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="date" class="form-control" placeholder="Birthday *" value="" />
+                                        </div>
+
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="How were you reffered?"
+                                                value="" />
+                                        </div>
+
+
+
+
+
+
+                                    </div>
+                                    <div class="col-md-6 col-lg-6 col-xl-6">
+                                        <div class="form-group">
+                                            <input type="email" class="form-control" placeholder="E-mail *" value="" />
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" minlength="10" maxlength="10" name="txtEmpPhone"
+                                                class="form-control" placeholder="Your Phone *" value="" />
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="City *" value="" />
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="State *" value="" />
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="ZIP Code *" value="" />
+                                        </div>
+                                        <input type="submit" class="btnRegister" value="Register" />
+                                    </div>
+                                </div>
+                            </div>
+                           
+                       </div>
+                   </div>
+               </div>
+           </div>
+
+
+            
+                <div class="col-md-10 col-lg-10 col-xl-10 mx-auto actGradiant my-5" data-aos="fade-left" data-aos-delay="300">
+                            <div class="row footer">
+
+                                <div class="col-md-4 col-lg-4 col-xl-4 col-sm-12 footer-box">
+                                    <div class="marginleftfooterimg">
+
+                                        <div class="row h-100">
+                                            <div class="col">
+                                                <img src="../images/logo.png" />
+
+                                            </div>
+                                            <div class="col my-auto">
+                                                <p class="mt-2 ml-n5" style="font-size: 13px;"> &copy; ORION 2020</p>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                
+                                <div class="col-md-4 col-lg-4 col-xl-4 col-sm-12 text-center">
+                                    
+                                        <div class="adeco mt-3">
+                                            <a href="@Model.Facebook" class="fa fa-facebook"></a>
+                                            <a href="@Model.Twitter" class="fa fa-twitter"></a>
+                                            <a href="@Model.Linkedin" class="fa fa-linkedin"></a>
+                                            <a href="@Model.Instagram" class="fa fa-instagram"></a>
+                                        </div>
+                                </div>
+
+
+                                <div class="col-md-4 col-lg-4 col-xl-4 col-sm-12 text-center text-light mt-3">
+                                        <p class="mb-2" style="font-size: 13px; ">Contact us and we'll get back to you within 24
+                                            hours.</p>
+
+                                        <p class="mt-0" style="font-size: 13px;">info@oriontcms.com</p>
+
+
+
+                                        <!-- <P>@Model.EMail</P>
+                                        <P>
+                                            @if (Model.Address != null)
+                                            {
+                
+                                                @Model.Address<span>,</span>
+                                            }
+                
+                                            @if (Model.State != null)
+                                            {
+                                                @Model.State<span>,</span>
+                                            }
+                                            @if (Model.City != null)
+                                            {
+                                                @Model.City<span>,</span>
+                                            }
+                                            @Model.ZipCode
+                
+                                        </P> -->
+                                </div>
+
+                            </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container register pt-0" data-aos="fade-up" data-aos-delay="300">
+
+            <div class="row font-italic">
+
+                <div class="col col-sm pl-0 pr-0 ">
+                    <div class="card" style="">
+                        <img src="https://image.flaticon.com/icons/svg/733/733319.svg" class="card-img mt-4 ml-4" />
+
+                        <div class="card-body">
+                            <h5 class="card-title">Reason 1</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-1 col-lg-1 col-xl-1">
+
+                </div>
+
+                <div class="col col-sm pl-0 pr-0">
+                    <div class="card" style="">
+                        <img src="https://image.flaticon.com/icons/svg/833/833654.svg" class="card-img mt-4 ml-4" />
+                        <div class="card-body">
+                            <h5 class="card-title">Reason 2</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-1 col-lg-1 col-xl-1">
+
+                </div>
+
+                <div class="col col-sm pl-0 pr-0">
+                    <div class="card" style="">
+                        <img src="../images/login.png" class="card-img mt-4 ml-4" />
+                        <div class="card-body">
+                            <h5 class="card-title">Reason 3</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<script src="../assets/js/jquery.nice-select.min.js"></script>  
+<script src="../assets/js/aos.js"></script>  
+<script src="../assets/js/main.js"></script>
+
+</body>
+</html>
